@@ -1,6 +1,9 @@
 # SSD1306 Notification Mirror
  Code for the notification mirroring functionality of my DIY smart glass project! The `socket.js` script uses a node websocket stream client to recieve messages from the PushBullet API.
 
+ Check out my video to see the rest of the project:
+ https://www.youtube.com/watch?v=pEyrGwpcSKo&feature=youtu.be
+
 ### Install:
 
 1. Clone this repo. Make sure you have Node.js installed!
