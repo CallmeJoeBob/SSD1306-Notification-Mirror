@@ -3,13 +3,13 @@ const i2c = require('i2c-bus');
 const font = require('oled-font-3x5');
 const font2 = require('oled-font-5x7');
 
-const token = '<api token>'
+const token = '<api token>' // Replace with your token
 const url = 'wss://stream.pushbullet.com/websocket/' + token
 const client = new WebSocketClient();
 const i2cBus = i2c.openSync(1);
 const Oled = require('oled-i2c-bus');
 const oled = new Oled(i2cBus, {
-    width: 128,
+    width: 128, // if you have a lower resolution display, replace these
     height: 64,
     address: 0x3c
 });
